@@ -1,0 +1,218 @@
+body {
+  background-color: white;
+}
+header {
+  position: sticky;
+}
+header .container nav ul li a,
+header .container nav .form,
+header .container nav .form i {
+  color: black;
+  border-left-color: black;
+}
+article {
+  position: relative;
+  width: 90%;
+  top: 50px;
+  left: 50px;
+}
+article .top h3 {
+  width: 60%;
+  margin-bottom: 10px;
+}
+article .top hr {
+  width: 60%;
+}
+article .Products {
+  position: relative;
+  display: inline-block;
+  top: 20px;
+  width: 600px;
+}
+article .cart-items .container1 {
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+}
+article .cart-items .container1 .item {
+  display: flex;
+  align-items: center;
+}
+article .cart-items .container1 .item .pic {
+  background-color: rgb(15 116 143 / 70%);
+}
+article .cart-items .container1 .item .pic img {
+  width: 140px;
+  height: 140px;
+}
+article .cart-items .container1 .item .data {
+  position: relative;
+  left: 20px;
+}
+article .cart-items .container1 .item .data .pname {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+article .cart-items .container1 .item .data p {
+  font-size: small;
+  margin-bottom: 10px;
+}
+article .cart-items .container1 .item .data .pcost {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+article .cart-items .container1 .item .data button {
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+article .cart-items .container1 .item .data .save {
+  background-color: orange;
+}
+article .cart-items .container1 .item .data .REmove {
+  background-color: red;
+  color: white;
+  margin-left: 5px;
+}
+article .cart-items .container1 .item .increm_decrem {
+  text-align: center;
+  margin-left: 100px;
+}
+/* article .cart-items .container1 .item .increm_decrem .increment_btn,
+article .cart-items .container1 .item .increm_decrem .decrement_btn {
+  border: 1px solid;
+  cursor: pointer;
+  padding: 5px 10px;
+  background-color: #26c113;
+}
+article .cart-items .container1 .item .increm_decrem .increment_btn {
+  border-right: none;
+  margin-right: -4px;
+}
+article .cart-items .container1 .item .increm_decrem .decrement_btn {
+  border-left: none;
+  margin-left: -4px;
+}
+article .cart-items .container1 .item .increm_decrem input {
+  border: none;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  padding: 5px 0;
+  width: 80px;
+  text-align: center;
+} */
+article .right_side {
+  display: inline-block;
+  background-color: #ddd;
+  position: absolute;
+  right: 0;
+  width: 400px;
+  padding: 20px 20px 10px 20px;
+}
+article .right_side .details .headPrice,
+article .right_side .details .headPrice h4 {
+  margin-bottom: 10px;
+}
+article .right_side .details .price {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+article .right_side .details .price .right {
+  position: relative;
+}
+article .right_side .details .price .right hr {
+  width: 150px;
+}
+article .right_side .details .price .left hr {
+  width: 180px;
+}
+article .right_side .details .price .delivery,
+article .right_side .details .price .tax,
+article .right_side .details .price .Tprice,
+article .right_side .details .price .Pitem {
+  margin-bottom: 20px;
+}
+article .right_side .details .price .tax {
+  color: green;
+}
+article .right_side .details .total_price p span {
+  position: relative;
+  right: -67px;
+}
+article .buy {
+  display: inline-block;
+  position: absolute;
+  right: 355px;
+  top: 225px;
+}
+article .buy button {
+  cursor: pointer;
+  background-color: rgb(15 116 143 / 70%);
+  border: none;
+  font-size: 20px;
+  padding: 5px;
+}
+article .buy button:hover {
+  background-color: black;
+  color: white;
+}
+.backg {
+  background-color: rgb(0, 0, 0);
+  position: fixed;
+  inset: 0px;
+  opacity: 0;
+  z-index: -2;
+}
+.info {
+  z-index: -2;
+  opacity: 0;
+  background-color: white;
+  width: 500px;
+  height: 240px;
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  right: 50%;
+  transform: translateX(50%);
+  top: 0;
+  text-align: center;
+}
+.info .userinfo {
+  margin: auto;
+}
+.info .fa-x {
+  width: 30px;
+  line-height: 35px;
+  position: absolute;
+  cursor: pointer;
+}
+#icus {
+  color: black;
+}
+.fa-x:hover {
+  background-color: #dff2f3;
+}
+.info .userinfo .adds {
+  margin: 20px 0;
+}
+.info .userinfo .input2 {
+  border: 1px solid blue;
+  height: 30px;
+  width: 200px;
+  font-size: 14px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#save {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  padding: 5px 35px 5px;
+  font-size: 18px;
+}

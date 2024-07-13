@@ -1,0 +1,109 @@
+body {
+  background-color: white;
+}
+header {
+  position: relative;
+}
+header .container nav ul li a,
+header .container nav .form,
+header .container nav .form i {
+  color: black;
+  border-left-color: black;
+}
+#icus {
+  color: black;
+}
+article {
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+}
+.left-side {
+  position: relative;
+  height: 100%;
+}
+.left-side .container1 {
+  position: relative;
+  top: 35%;
+  margin: 0 100px 0 70px;
+}
+.left-side .container1 .picture a img {
+  height: 140px;
+}
+.right-side {
+  position: relative;
+  height: 100%;
+}
+.right-side .container2 {
+  position: relative;
+}
+.right-side .container2 .product-description {
+  position: relative;
+}
+.right-side .container2 .product-description .name {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 40px;
+}
+.right-side .container2 .product-description .price {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 50px;
+  color: #40a944;
+}
+.right-side .container2 .product-description {
+  line-height: 24px;
+  font-size: 15px;
+  padding-bottom: 40px;
+}
+.right-side .container2 .btn-add {
+  padding-bottom: 30px;
+}
+.right-side .container2 .btn-add button {
+  width: 250px;
+  height: 40px;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  background-color: #26c113;
+  color: white;
+}
+.right-side .container2 .btn-add button:hover {
+  background-color: black;
+}
+.right-side .container2 .Drivery {
+  padding: 20px 0;
+  color: #fd7016;
+}
+.right-side .container2 .Drivery p {
+  display: inline;
+  font-size: 14px;
+  font-weight: bold;
+}
+.right-side .container2 .payment-Methods {
+  padding: 20px 0;
+}
+.right-side .container2 .payment-Methods p {
+  font-weight: bold;
+}
+.right-side .container2 .payment-Methods .pay {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.right-side .container2 .payment-Methods .pay img {
+  display: inline-block;
+  height: 40px;
+  padding: 0 30px 0 0;
+}
+@media (max-width: 768px) {
+  article {
+    overflow: hidden;
+    flex-direction: column;
+  }
+  .right-side {
+    margin: 50px 60px 0;
+  }
+}
